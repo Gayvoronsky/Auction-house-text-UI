@@ -15,7 +15,7 @@ public class bids {
                 int o = b.nextInt();
                 switch(o){
                     default:
-                        System.out.println("No problem.We will consider your offer");
+                        System.out.println("Ok,no problem.We will consider your offer");
                         break;
                 }
                 break;

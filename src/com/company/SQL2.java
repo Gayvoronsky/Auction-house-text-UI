@@ -24,10 +24,10 @@ public class SQL2  {
                 Scanner scanner = new Scanner(System.in);
                 int a;
                 a = scanner.nextInt();
-                System.out.println("enter number");
+                System.out.println("enter column 1");
                 String b;
                 b = scanner.next();
-                System.out.println("enter phone");
+                System.out.println("enter column 2");
                 String c;
                 c = scanner.next();
                 String createColumnQuery = "INSERT INTO dz." + createTableQuery1 + " (id, number, name)" +
@@ -57,7 +57,7 @@ public class SQL2  {
                         }
 
                     }
-                    System.out.println("Added product in table" + createTableQuery1);
+                    System.out.println("Added products in table" + createTableQuery1);
                 }
                 break;
         }
