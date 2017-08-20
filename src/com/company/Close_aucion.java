@@ -9,7 +9,7 @@ void close() throws InterruptedException {
     Scanner s = new Scanner(System.in);
     int i = s.nextInt();
     switch(i) {
-        case 5:
+        case 6:
             for (int j = 0; j < 5; j++) {
                 System.out.println("Close...");
                 Thread.sleep(1000);

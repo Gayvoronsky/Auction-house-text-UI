@@ -16,12 +16,15 @@ public class Print {
         System.out.println("If you would like create 2 table"+" byers "+",enter number 3");
     }
     void print4(){
-        System.out.println("If you would like add bids, enter number 4");
+        System.out.println("If you would like drop table , enter number 4 ");
     }
     void print5(){
-        System.out.println("If you would like close auction, enter number 5");
+        System.out.println("If you would like add bids, enter number 5");
     }
     void print6(){
+        System.out.println("If you would like close auction, enter number 6");
+    }
+    void print8(){
         System.out.println("_______________________________________________________");
     }
 

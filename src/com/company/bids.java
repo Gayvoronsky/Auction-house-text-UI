@@ -9,7 +9,7 @@ public class bids {
         Scanner s = new Scanner(System.in);
         int i = s.nextInt();
         switch(i){
-            case 4:
+            case 5:
                 System.out.println("---Enter bids---");
                 Scanner b = new Scanner(System.in);
                 int o = b.nextInt();

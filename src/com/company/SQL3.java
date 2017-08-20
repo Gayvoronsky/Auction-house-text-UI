@@ -29,7 +29,7 @@ public class SQL3 {
                 System.out.println("enter name for column 3 in - `  `");
                 String d;
                 d = scanner.next();
-                String createTableQuery = "CREATE TABLE " + a +"(" +
+                String createTableQuery = "CREATE TABLE bd." + a +"(" +
                         b + "   int(11)," +
                         c + "   int(11)," +
                         d +"   varchar(45) DEFAULT NULL," +
@@ -57,7 +57,7 @@ public class SQL3 {
                         ") ENGINE=InnoDB DEFAULT CHARSET=utf8;";
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
-                    String url = "jdbc:mysql://localhost:3306/dz";
+                    String url = "jdbc:mysql://localhost:3306/bd";
                     connection = DriverManager.getConnection(url, "root", "123456");
                     statement = connection.createStatement();
                     statement.executeUpdate(createTableQuery);

@@ -6,38 +6,25 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-//this class create product for table
-
-public class SQL2  {
-    void bd2() {
+public class SQL4 {
+    void bd4() {
         Connection connection = null;
         Statement statement = null;
         Scanner s = new Scanner(System.in);
         int i = s.nextInt();
         switch (i) {
-            case 2:
+            case 4:
                 System.out.println("enter name table in - ` exemple `");
                 Scanner scannerString = new Scanner(System.in);
-                String createTableQuery1;
-                createTableQuery1 = scannerString.next();
-                System.out.println("enter id");
-                Scanner scanner = new Scanner(System.in);
-                int a;
-                a = scanner.nextInt();
-                System.out.println("enter column 1");
-                String b;
-                b = scanner.next();
-                System.out.println("enter column 2");
-                String c;
-                c = scanner.next();
-                String createColumnQuery = "INSERT INTO bd." + createTableQuery1 + " (id, number, name)" +
-                    "VALUES (" + a+ "," + b+"," + c + ")";
+                String dropTableQuery1;
+                dropTableQuery1 = scannerString.next();
+                String dropTableQuery = "DROP TABLE bd." + dropTableQuery1 + "; ";
                 try {
                     Class.forName("com.mysql.jdbc.Driver");
                     String url = "jdbc:mysql://localhost:3306/bd";
                     connection = DriverManager.getConnection(url, "root", "123456");
                     statement = connection.createStatement();
-                    statement.executeUpdate(createColumnQuery);
+                    statement.executeUpdate(dropTableQuery);
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
@@ -57,7 +44,7 @@ public class SQL2  {
                         }
 
                     }
-                    System.out.println("Added products in table" + createTableQuery1);
+                    System.out.println("Drop products in table" + dropTableQuery1);
                 }
                 break;
         }
