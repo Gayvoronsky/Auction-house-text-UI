@@ -1,0 +1,17 @@
+
+«%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(»ÊÜúÿÿÿÿ
+M"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ìúÇV
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿ÇÆãúÿÿÿÿ
+_squid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ìúÇV
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(ä·ŒY
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ô³É
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûü“Ìşÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(€œşÅ

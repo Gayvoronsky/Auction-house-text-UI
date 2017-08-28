@@ -24,14 +24,13 @@ public class SQL2  {
                 Scanner scanner = new Scanner(System.in);
                 int a;
                 a = scanner.nextInt();
-                System.out.println("enter column 1");
+                System.out.println("enter column 1 in ` `");
                 String b;
                 b = scanner.next();
-                System.out.println("enter column 2");
+                System.out.println("enter column 2 in ` `");
                 String c;
                 c = scanner.next();
-                String createColumnQuery = "INSERT INTO bd." + createTableQuery1 + " (id, number, name)" +
-                    "VALUES (" + a + "," + b+"," + c + ")";
+                String createColumnQuery = "INSERT INTO `bd`."+createTableQuery1 +" (`id`, `number`, `name`) VALUES ("+ a +"," +b+ ","+c+","+");";
                 try {
                     String url = "jdbc:mysql://localhost:3306/bd";
                     connection = DriverManager.getConnection(url, "root", "123456");

@@ -25,8 +25,8 @@ public class SQL {
 
                 String createTableQuery = "CREATE TABLE bd." + createTableQuery1 + "(" +
                        " id int(11)," +
-                        " number  int(11)," +
-                        "  name int(11)," +
+                        " `number` varchar(255)," +
+                        "  `name` varchar(255)," +
                         "  PRIMARY KEY  (`id`)" +
                         ") ENGINE=InnoDB DEFAULT CHARSET=utf8;";
                     try {
