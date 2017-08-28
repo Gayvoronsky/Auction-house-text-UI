@@ -35,7 +35,7 @@ public class Main {
                     int count1 = rs.getInt(1);
                     int count2 = rs.getInt(2);
                     int count3 = rs.getInt(3);
-                    System.out.println("------|id: " + count1+"------");
+                    System.out.println("------|id: " + count1+"|------");
                     System.out.println("--------------------");
                     System.out.println("column 1: " + count2);
                     System.out.println("column 2: " + count3);
