@@ -14,14 +14,12 @@ public class Main {
         Close_aucion close = new Close_aucion();
         //methods print
         print.menu();
-        print.print8();
         print.print();
         print.print2();
         print.print3();
         print.print4();
         print.print5();
         print.print6();
-        print.print8();
         //
 
         s.bd();

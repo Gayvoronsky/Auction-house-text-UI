@@ -22,22 +22,14 @@ public class SQL {
                 Scanner scanner = new Scanner(System.in);
                 String createTableQuery1;
                 createTableQuery1 = scanner.next();
-                Scanner scanner1 = new Scanner(System.in);
-                System.out.println("named column 1 - ` exemple ` ");
-                String b;
-                b = scanner1.next();
-                System.out.println("name column 2 - ` exemple `");
-                String c;
-                c = scanner1.next();
+
                 String createTableQuery = "CREATE TABLE bd." + createTableQuery1 + "(" +
                        " id int(11)," +
-                        b +"   int(11)," +
-                        c + "  int(11)," +
+                        " number  int(11)," +
+                        "  name int(11)," +
                         "  PRIMARY KEY  (`id`)" +
                         ") ENGINE=InnoDB DEFAULT CHARSET=utf8;";
                     try {
-
-                        Class.forName("com.mysql.jdbc.Driver");
                         String url = "jdbc:mysql://localhost:3306/bd";
                         connection = DriverManager.getConnection(url, "root", "123456");
                         statement = connection.createStatement();

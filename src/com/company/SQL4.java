@@ -20,7 +20,6 @@ public class SQL4 {
                 dropTableQuery1 = scannerString.next();
                 String dropTableQuery = "DROP TABLE bd." + dropTableQuery1 + "; ";
                 try {
-                    Class.forName("com.mysql.jdbc.Driver");
                     String url = "jdbc:mysql://localhost:3306/bd";
                     connection = DriverManager.getConnection(url, "root", "123456");
                     statement = connection.createStatement();

@@ -31,9 +31,8 @@ public class SQL2  {
                 String c;
                 c = scanner.next();
                 String createColumnQuery = "INSERT INTO bd." + createTableQuery1 + " (id, number, name)" +
-                    "VALUES (" + a+ "," + b+"," + c + ")";
+                    "VALUES (" + a + "," + b+"," + c + ")";
                 try {
-                    Class.forName("com.mysql.jdbc.Driver");
                     String url = "jdbc:mysql://localhost:3306/bd";
                     connection = DriverManager.getConnection(url, "root", "123456");
                     statement = connection.createStatement();

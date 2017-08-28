@@ -35,33 +35,12 @@ public class SQL3 {
                         d +"   varchar(45) DEFAULT NULL," +
                         "  PRIMARY KEY  (`id`)" +
                         ") ENGINE=InnoDB DEFAULT CHARSET=utf8;";
+try{
 
-                System.out.println("enter name for table 2 in - `  `");
-                Scanner scanner1 = new Scanner(System.in);
-                String a1;
-                a1 = scanner1.next();
-                System.out.println("enter id for column 1");
-                String b1;
-                b1 = scanner1.next();
-                System.out.println("enter number for column 2");
-                String c1;
-                c1 = scanner1.next();
-                System.out.println("enter name for column 3 in - `  `");
-                String d1;
-                d1 = scanner1.next();
-                String createTableQuery2 = "CREATE TABLE " + a1 + "(" +
-                        b1 + "   int(11)," +
-                        c1 + "   int(11)," +
-                        d1 +"   varchar(45) DEFAULT NULL," +
-                        "  PRIMARY KEY  (`id`)" +
-                        ") ENGINE=InnoDB DEFAULT CHARSET=utf8;";
-                try {
-                    Class.forName("com.mysql.jdbc.Driver");
                     String url = "jdbc:mysql://localhost:3306/bd";
                     connection = DriverManager.getConnection(url, "root", "123456");
                     statement = connection.createStatement();
                     statement.executeUpdate(createTableQuery);
-                    statement.executeUpdate(createTableQuery2);
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
@@ -84,7 +63,7 @@ public class SQL3 {
                     }
 
                 }
-                System.out.println("Created tables " + a + " and " + a1);
+                System.out.println("Created tables " + a);
                 break;
 
         }
