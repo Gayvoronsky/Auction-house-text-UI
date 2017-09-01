@@ -1,14 +1,0 @@
-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(¨‡æ¿8æÛËâ+
-fsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ìúÇV8¯ÜÎËâ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ã•¸ş8æÛËâ+
-T"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ìúÇV8¯ÜÎËâ+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ù›šøÿÿÿÿ8²¥ëËâ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ú²İ±8²¥ëËâ+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÌÏ¨8²¥ëËâ+
-dsquid:S2259"HA "NullPointerException" could be thrown; "connection" is nullable here.(Ù£ãˆ8²¥ëËâ+

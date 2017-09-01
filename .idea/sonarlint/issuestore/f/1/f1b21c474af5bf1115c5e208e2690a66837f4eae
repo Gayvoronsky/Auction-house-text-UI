@@ -1,16 +1,0 @@
-
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ùÆîßþÿÿÿÿ
-_squid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ìúÇV
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹°¯­
-M"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ìúÇV
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(«¡é¡üÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(ã•¸þ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(±›¸¼ûÿÿÿÿ

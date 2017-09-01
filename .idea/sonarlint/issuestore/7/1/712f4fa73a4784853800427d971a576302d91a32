@@ -1,0 +1,50 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œ€ÿ8Ä©‘éâ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğ¢ş˜8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8’üğÊâ+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ÏÚŸÅşÿÿÿÿ8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8’üğÊâ+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(’ÒÎ8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(„–‘§úÿÿÿÿ8’üğÊâ+
+<squid:S2068" Remove this hard-coded password.(å½ı¨8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(„–‘§úÿÿÿÿ8’üğÊâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(„–‘§úÿÿÿÿ8’üğÊâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8ÌÀİêã+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(„–‘§úÿÿÿÿ8ÌÀİêã+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(®ÀÚ¯8Ä©‘éâ+
+Fsquid:S00108")Either remove or fill this block of code.(ÙÌ„å8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8’üğÊâ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œ€ÿ8Ä©‘éâ+
+fsquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ìúÇV8Ä©‘éâ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(—±…È8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8’üğÊâ+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯À©18Ä©‘éâ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(û¥°¤8Ä©‘éâ+
+¤%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Üú é8º¾€ëã+
+T"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ìúÇV8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ8’üğÊâ+
+Dsquid:S1148"#Use a logger to log this exception.(ÃÁ êøÿÿÿÿ8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(„–‘§úÿÿÿÿ8’üğÊâ+
+Ksquid:S00108")Either remove or fill this block of code.(©ÚğÙÿÿÿÿÿ8Ä©‘éâ+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(œïì”8Ä©‘éâ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(„–‘§úÿÿÿÿ8’üğÊâ+
+Ksquid:S00108")Either remove or fill this block of code.(ëÛ§‹şÿÿÿÿ8Ä©‘éâ+
